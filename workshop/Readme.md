@@ -63,7 +63,7 @@ kubectl apply -f hands-on2-deployment.yaml
    curl http://<nodes-ipaddress>:30001
 ```
 
-# LAB-4 Image Scan with trivy
+# LAB-4 Security Scanner Image with trivy
 ```
 trivy image --severity HIGH,CRITICAL nginx:latest
 trivy image --severity HIGH,CRITICAL -f json -o trivy-report.json nginx:latest
