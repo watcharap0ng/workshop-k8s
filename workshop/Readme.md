@@ -14,7 +14,7 @@ kubectl apply -f nginx-pod.yaml
 kubectl get pods
 kubectl describe pods nginx
 kubectl get pods -owide
-kubectl port-forward pod/<POD-NAME> 80:80
+kubectl port-forward pod/<POD-NAME> 8080:80
 kubectl delete pods nginx
 
 ```
