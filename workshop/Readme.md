@@ -52,8 +52,15 @@ kubectl apply -f hands-on2-deployment.yaml
 # LAB-3 Create Service - ClusterIP, NodePort
 ```
 1. Open hands-on3-svc.yml and create service type ClusterIP
-2. kubectl label node <node-name> service=app
-3. Let try port-forward from your localhost to the svc
+   kubectl apply -f hands-on3-svc.yml
+2. Check STATUS is Pending?
+   kubectl get pods -owide
+3. Add label worker node
+   kubectl get nodes
+   kubectl label node <node-name> service=app
+   kubectl get pods -owide
+4. Let try port-forward from your localhost to the svc
+   kubectl get svc
    kubectl port-forward svc/simple-app-svc 8080:80
 
 
