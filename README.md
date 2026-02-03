@@ -3,7 +3,7 @@ workshop-k8s
 
 # สิ่งที่ต้องเตรียม ()
 1. ถ้าจะใช้ Github Codespace
-ถ้าใครไม่มี github สามารถเข้าไปสมัครได้ที่ (ต้องใช้ CMU ACCOUNT ในการลงทะเบียนเท่านั้น ใน FORM นี้) =>  [ลงทะเบียนใช้งาน GitHub Enterprise for CMU](https://forms.office.com/pages/responsepage.aspx?id=3_GBz1neKUyR2qLf0EqnUfWFICr-s69FptDpdUKDz5hUMUE2UUVFTTlNMDQwVU9LTFc0VlAzTE80MC4u&route=shorturl)
+กรณีถ้ายังไม่มี github สามารถเข้าไปสมัครได้ที่ (ต้องใช้ CMU ACCOUNT ในการลงทะเบียนเท่านั้น ใน FORM นี้) =>  [ลงทะเบียนใช้งาน GitHub Enterprise for CMU](https://forms.office.com/pages/responsepage.aspx?id=3_GBz1neKUyR2qLf0EqnUfWFICr-s69FptDpdUKDz5hUMUE2UUVFTTlNMDQwVU9LTFc0VlAzTE80MC4u&route=shorturl)
 
 
 ```
@@ -39,6 +39,11 @@ kubectl get nodes
 ```
 # ติดตั้ง WSL2 + Ubuntu
 wsl --install -d Ubuntu-22.04
+wsl --set-default-version 2
+
+# ติดตั้ง Docker Desktop (Windows)
+ดาวน์โหลด Docker Desktop https://www.docker.com/products/docker-desktop/
+
 
 # x86_64
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.31.0/kind-linux-amd64
@@ -76,6 +81,9 @@ brew install kubectl
 
 # Install trivy
 brew install trivy
+
+# ติดตั้ง Docker Desktop (macOS)
+ดาวน์โหลด Docker Desktop https://www.docker.com/products/docker-desktop/
 
 # create cluster
 cd kind
