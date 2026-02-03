@@ -1,9 +1,9 @@
 # workshop-k8s
 workshop-k8s
 
-# สิ่งที่ต้องเตรียม
-1. ถ้าใช้ github codespace
-ถ้าใครไม่มี github สามารถเข้าไปสมัครได้ที่ =>  [ลงทะเบียนใช้งาน GitHub Enterprise for CMU](https://forms.office.com/pages/responsepage.aspx?id=3_GBz1neKUyR2qLf0EqnUfWFICr-s69FptDpdUKDz5hUMUE2UUVFTTlNMDQwVU9LTFc0VlAzTE80MC4u&route=shorturl)
+# สิ่งที่ต้องเตรียม ()
+1. ถ้าจะใช้ Github Codespace
+ถ้าใครไม่มี github สามารถเข้าไปสมัครได้ที่ (ต้องใช้ CMU ACCOUNT ในการลงทะเบียนเท่านั้น ใน FORM นี้) =>  [ลงทะเบียนใช้งาน GitHub Enterprise for CMU](https://forms.office.com/pages/responsepage.aspx?id=3_GBz1neKUyR2qLf0EqnUfWFICr-s69FptDpdUKDz5hUMUE2UUVFTTlNMDQwVU9LTFc0VlAzTE80MC4u&route=shorturl)
 
 
 ```
@@ -35,7 +35,7 @@ kubectl cluster-info --context kind-kind
 kubectl get nodes
 ```
 
-2. เครื่องของตัวเอง Windows (LABTOP)
+2. ถ้าจะใช้เครื่องของตัวเอง Windows (LABTOP)
 ```
 # ติดตั้ง WSL2 + Ubuntu
 wsl --install -d Ubuntu-22.04
@@ -66,7 +66,7 @@ kubectl cluster-info --context kind-kind
 kubectl get nodes
 ```
 
-3. เครื่องของตัวเอง macOS (LABTOP)
+3. ถ้าจะใช้เครื่องของตัวเอง macOS (LABTOP)
 ```
 # Install kind
 brew install kind
