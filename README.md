@@ -3,6 +3,9 @@ workshop-k8s
 
 # สิ่งที่ต้องเตรียม
 1. ถ้าใช้ github codespace
+ถ้าใครไม่มี github สามารถเข้าไปสมัครได้ที่ =>  [ลงทะเบียนใช้งาน GitHub Enterprise for CMU](https://forms.office.com/pages/responsepage.aspx?id=3_GBz1neKUyR2qLf0EqnUfWFICr-s69FptDpdUKDz5hUMUE2UUVFTTlNMDQwVU9LTFc0VlAzTE80MC4u&route=shorturl)
+
+
 ```
 # x86_64
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.31.0/kind-linux-amd64
