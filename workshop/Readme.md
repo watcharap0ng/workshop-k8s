@@ -29,7 +29,7 @@ kubectl delete pods nginx
 6. What is the image used to create the pods in the deployment?
 7. Delete nginx deployment
 8. Create a new Deployment with the below attributes using your own
-deployment definition file (Copy from hands-on1-deployment.yml)
+deployment definition file (Copy from hands-on2-deployment.yaml)
    Name: test-app
    Replicas: 3
    Image: nginx:1.22
