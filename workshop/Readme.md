@@ -51,8 +51,8 @@ kubectl apply -f hands-on2-deployment.yaml
 
 # LAB-3 Create Service - ClusterIP, NodePort
 ```
-1. Open hands-on3-svc.yml and create service type ClusterIP
-   kubectl apply -f hands-on3-svc.yml
+1. Open hands-on3-svc.yaml and create service type ClusterIP
+   kubectl apply -f hands-on3-svc.yaml
 2. Check STATUS is Pending?
    kubectl get pods -owide
 3. Add label worker node
@@ -64,7 +64,7 @@ kubectl apply -f hands-on2-deployment.yaml
    kubectl port-forward svc/simple-app-svc 8080:80
 
 
-1. Open hands-on4-svc.yml and create service type NodePort
+1. Open hands-on4-svc.yaml and create service type NodePort
 2. Try request to your exposed service (nodes ip address)
    kubectl get nodes -owide
    curl http://<nodes-ipaddress>:30001
