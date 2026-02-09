@@ -47,7 +47,7 @@ kubectl cluster-info --context kind-kind
 kubectl get nodes
 ```
 
-2. ถ้าจะใช้เครื่องของตัวเอง Windows (LABTOP)
+## ถ้าจะใช้เครื่องของตัวเอง Windows (LABTOP)
 ```
 # ติดตั้ง WSL2 + Ubuntu
 wsl --install -d Ubuntu-22.04
@@ -72,9 +72,10 @@ kubectl version --client --short
 # Install Trivy
 curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo sh -s -- -b /usr/local/bin v0.69.0
 
+git clone https://github.com/watcharap0ng/workshop-k8s.git
 
 # create cluster
-cd kind
+cd workshop-k8s/kind
 kind create cluster --config=config.yml
 
 
@@ -83,7 +84,7 @@ kubectl cluster-info --context kind-kind
 kubectl get nodes
 ```
 
-3. ถ้าจะใช้เครื่องของตัวเอง macOS (LABTOP)
+## ถ้าจะใช้เครื่องของตัวเอง macOS (LABTOP)
 ```
 # Install kind
 brew install kind
@@ -97,8 +98,11 @@ brew install trivy
 # ติดตั้ง Docker Desktop (macOS)
 ดาวน์โหลด Docker Desktop https://www.docker.com/products/docker-desktop/
 
+
+git clone https://github.com/watcharap0ng/workshop-k8s.git
+
 # create cluster
-cd kind
+cd workshop-k8s/kind
 kind create cluster --config=config.yml
 
 # Verify
