@@ -2,15 +2,20 @@
 workshop-k8s
 
 # สิ่งที่ต้องเตรียม ()
-1. ถ้าจะใช้ Github Codespace
+## 1. ถ้าจะใช้ Github Codespace
 กรณีถ้ายังไม่มี github สามารถเข้าไปสมัครได้ที่ (ต้องใช้ CMU ACCOUNT ในการลงทะเบียนเท่านั้น ใน FORM นี้) =>  [ลงทะเบียนใช้งาน GitHub Enterprise for CMU](https://forms.office.com/pages/responsepage.aspx?id=3_GBz1neKUyR2qLf0EqnUfWFICr-s69FptDpdUKDz5hUMUE2UUVFTTlNMDQwVU9LTFc0VlAzTE80MC4u&route=shorturl)
 
+## 2. Create a Git Repository
 
-![create git repo](images/image1.png)
+![Create a Git repository](images/image1.png)
 
-![use codespace](images/image2.png)
+## 3. Open in Codespaces
 
-![create codespace](images/image3.png)
+![Use Codespaces](images/image2.png)
+
+## 4. Create a Codespace
+
+![Create a Codespace](images/image3.png)
 ```
 # x86_64
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.31.0/kind-linux-amd64
